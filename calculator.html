@@ -59,6 +59,10 @@
     
     function insert(num) 
     {
+      var x = document.form.answer.value;
+      if (x==0) {
+        document.form.answer.value = "";}
+      
     document.form.answer.value = document.form.answer.value + num ;
     }
   
